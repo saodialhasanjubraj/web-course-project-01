@@ -1,6 +1,7 @@
 /* Google Fonts like */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Shortcuts and Customization */
 :root{
   --font_Inter:Inter;
   --font_Raleway:Raleway;
@@ -12,14 +13,20 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 16px;
+
 }
 
 body{
     width: 100%;
     max-width: 1440px;
-    overflow: hidden;
+    overflow-x: hidden;
     margin: auto;
+    background-color: white;
+   
 }
+/*  */
+
+
 header{
 width: 100%;
 height: 698px;
@@ -71,3 +78,86 @@ color: white;
     }
 }
 }
+/* Header complete */
+
+.seeItInAction{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 116px;
+    height: 328px;
+    .left{
+width: 517px;
+height: 203px;
+display: flex;
+flex-direction: column;
+gap: 23px;
+align-items:start;
+h1{
+    font-size: 42px;
+    font-weight: bold;
+    font-family: var(--font_Raleway);    
+}
+p{
+    font-family: var(--font_Raleway);
+    line-height: 30px;
+    font-size: 24px;
+    color: #252432;
+    opacity: 50%;
+}
+button{
+    height: 48px;
+    width: 299px;
+    background-color: var(--blueColor);
+    font-family: var(--font_Raleway);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+    }
+    .right{
+        img{
+            width: 403px;
+            height: 328px;
+            border-radius: 48px;
+        }
+    }
+}
+
+.productiveUsers{
+    margin-top: 116px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        font-size: 38px;
+        font-family: var(--font_Raleway);
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+    .items{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+.item{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: column;
+    h3{
+        font-size: 80px;
+        font-family: var(--font_Inter);
+        font-weight: bold;
+        color: var(--blueColor);
+    }
+    span{
+font-size: 20px;
+font-family: var(--font_Inter);
+color: black;
+opacity: 50%;
+}
+}
+    }
+}
+
