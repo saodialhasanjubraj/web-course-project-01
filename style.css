@@ -347,7 +347,8 @@ header {
                 margin: 0;
             }
         }
-        button{
+
+        button {
             width: 497px;
             height: 62px;
             border: none;
@@ -358,41 +359,47 @@ header {
     }
 }
 
-footer{
+footer {
     width: 100%;
     height: 428px;
     display: flex;
     align-items: center;
     justify-content: center;
-    .footerContent{
+
+    .footerContent {
         height: 221px;
         width: 531px;
         display: flex;
         align-items: center;
         flex-direction: column;
-        h1{
+
+        h1 {
             font-size: 150px;
             font-family: Arial;
             color: var(--blueColor);
             font-weight: bold;
         }
-        p{
+
+        p {
             text-align: center;
             font-family: var(--font_Inter);
             line-height: 150%;
             color: #8987A1;
         }
-        .navbar{
+
+        .navbar {
             margin-top: 20px;
-            ul{
+
+            ul {
                 width: 401px;
                 height: 24px;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
                 list-style: none;
-                li{
-                    a{
+
+                li {
+                    a {
                         text-decoration: none;
                         color: #8987A1;
                         font-family: var(--font_Inter);
