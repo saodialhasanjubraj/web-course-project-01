@@ -11,6 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 16px;
 }
 
 body{
@@ -42,6 +43,31 @@ nav{
         width: 132px;
         height: 48px;
         color: white;
+        border-radius: 10px;
+        border: none;
+    }
+}
+/* Nav End here */
+.heroContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+    padding: 50px 0 50px 0;
+    p{
+        font-size: 65px;
+        font-weight: bold;
+        font-family: var(--font_Raleway);
+        color: #252432;
+        text-align: center;
+    }
+    button{
+height: 48px;
+width: 174px;
+background-color: var(--blueColor);
+color: white;
+        border-radius: 10px;
+        border: none;
     }
 }
 }
